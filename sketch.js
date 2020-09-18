@@ -10,7 +10,11 @@ var form, player, game;
 
 var cars, car1, car2, car3, car4;
 
+var cars =[];
+
 var track, car1_img, car2_img, car3_img, car4_img;
+
+
 
 function preload(){
   track = loadImage("../images/track.jpg");
@@ -27,6 +31,8 @@ function setup(){
   game = new Game();
   game.getState();
   game.start();
+
+ 
 }
 
 
